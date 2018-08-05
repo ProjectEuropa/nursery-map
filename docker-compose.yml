@@ -6,6 +6,6 @@ services:
       - 80:80
     volumes:
       - './:/app'
-    # environment:
-    #   - FLASK_APP=run.py
-    #   - 'RUN=flask run --host=0.0.0.0 --port=80'
+    environment:
+      - NGINX_HTTP_PORT_NUMBER=80
+      - NGINX_HTTPS_PORT_NUMBER=443
