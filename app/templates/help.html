@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>保育園Map β版</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+</head>
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-content {
+        margin-top: 10px;
+    }
+
+    main {
+        margin-top: 30px;
+    }
+
+    .header-menu,
+    footer {
+        background-color: #2a2a2a;
+    }
+
+    footer {
+        height: 50px;
+        margin-top: 15px;
+        padding-top: 15px;
+        color: #bfbfbf;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .pure-menu-link,
+    .pure-menu-heading {
+        color: #ffffff;
+    }
+
+    .pure-menu-link:hover {
+        color: #2a2a2a;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="pure-menu pure-menu-horizontal header-menu">
+            <a href="/" class="pure-menu-heading">
+                <i class="fas fa-search-plus"></i>保育園簡易地図 β版</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                    <a href="#" class="pure-menu-link pure-menu-disabled">
+                        <i class="fab fa-neos"></i>お知らせ</a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="#" class="pure-menu-link pure-menu-disabled">
+                        <i class="fas fa-map-pin"></i>都道府県選択</a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="/help" class="pure-menu-link">
+                        <i class="far fa-question-circle"></i>ヘルプ</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <p>保育園簡易マップを作成しています。
+            誠意作成中です。しばらくお待ちください。</p>
+            <img src="/static/images/comming.jpg" />
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <small>©
+                <span id="nowYear"></span> Team Project Europa</small>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("nowYear").innerText = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
