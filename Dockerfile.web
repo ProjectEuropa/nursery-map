@@ -1,0 +1,8 @@
+FROM tiangolo/uwsgi-nginx-flask:python3.6
+
+WORKDIR /web
+RUN git clone https://github.com/ProjectEuropa/nursery-map.git napp
+
+RUN mv /web/napp/dist/* /web/napp/app/templates/
+
+ENV FLASK_APP /web/napp/app/main.py

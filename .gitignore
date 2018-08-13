@@ -1,1 +1,17 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+
+# IDE
+.idea
+
+
 /app/__pycache__
+!/app/.gitkeep
