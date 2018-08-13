@@ -5,8 +5,8 @@ app = Flask(__name__, static_url_path='')
 cors = CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:3000"}})
 
 @app.route('/')
-def render_static(page_name):
-    return render_template('/index.html')
+def index():
+    return render_template('index.html')
 
 @app.route('/<string:page_name>/')
 def render_static(page_name):
