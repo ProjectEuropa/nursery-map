@@ -4,9 +4,14 @@ from flask_cors import CORS
 app = Flask(__name__, static_url_path='')
 cors = CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:3000"}})
 
+@app.route("/favicon.ico")
+def favicon():
+    return app.send_static_file("favicon.ico")
+    
 @app.route('/<string:page_name>/')
 def render_static(page_name):
     return render_template('%s.html' % page_name)
+
 
 @app.route('/<string:dir_name>/index')
 def render_static_dir(dir_name):
