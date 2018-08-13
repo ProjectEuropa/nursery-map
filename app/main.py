@@ -4,6 +4,9 @@ from flask_cors import CORS
 app = Flask(__name__, static_url_path='')
 cors = CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:3000"}})
 
+@app.route('/')
+def render_static(page_name):
+    return render_template('/index.html')
 
 @app.route('/<string:page_name>/')
 def render_static(page_name):
@@ -25,6 +28,4 @@ def api():
   return jsonify(data)
 
 if __name__ == '__main__':
-    app.static_url_path='/'
-    app.static_folder=app.root_path
     app.run(host="0.0.0.0", port=80, debug=True)
