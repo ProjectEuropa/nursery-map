@@ -3,7 +3,7 @@ from flask import Flask, render_template, jsonify
 from flask_cors import CORS
 
 
-app = Flask(__name__, static_url_path='', template_folder='app/templates')
+app = Flask(__name__, static_url_path='', template_folder='./templates')
 cors = CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:3000"}})
 
 @app.route('/')                                   
