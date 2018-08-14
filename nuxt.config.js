@@ -2,7 +2,6 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'universal',
-
   /*
   ** Headers of the page
   */
@@ -15,7 +14,10 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { src: 'https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPXlVdW5hajMxUTdESCZzPWNvbnN1bWVyc2VjcmV0Jng9MDQ-' }
+    ],
   },
 
   /*

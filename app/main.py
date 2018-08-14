@@ -18,16 +18,5 @@ def render_static(page_name):
 def render_static_dir(dir_name):
     return render_template(dir_name + '/index.html')
 
-@app.route('/api/')
-def api():
-  message = {}
-  data = {}
-
-  message['message'] = 'Hello World from Flask!'
-  data['status'] = 200
-  data['data'] = message
-
-  return jsonify(data)
-
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=80, debug=True)
