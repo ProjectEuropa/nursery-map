@@ -10,7 +10,7 @@
                     <a href="#" class="pure-menu-link pure-menu-disabled"><i class="fas fa-map-pin"></i>都道府県選択</a>
                 </li>
                 <li class="pure-menu-item">
-                    <a href="/help/index" class="pure-menu-link"><i class="far fa-question-circle"></i>ヘルプ</a>
+                    <a href="/help" class="pure-menu-link"><i class="far fa-question-circle"></i>ヘルプ</a>
                 </li>
             </ul>
         </div>

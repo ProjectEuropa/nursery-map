@@ -23,7 +23,7 @@
             <p class="card-text">埼玉県南部に位置する保育園MAPです。</p>
           </div>
           <div class="card-link">
-            <a href="yashio/index">八潮市の保育園MAPを見る</a>
+            <a href="/saitama/yashio">八潮市の保育園MAPを見る</a>
           </div>
         </section>
         <section class="card">
