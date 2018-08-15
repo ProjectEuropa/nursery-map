@@ -25,7 +25,7 @@
           </div>
         </section>
         <section class="card">
-          <img class="card-img" src="@/assets/images/saitama/yashio.png" alt="">
+          <img class="card-img" src="@/assets/images/saitama/misato.png" alt="">
           <div class="card-content">
             <h4 class="card-title">三郷市の保育園MAP</h4>
             <p class="card-text">埼玉県南部に位置する三郷市の保育園MAPです。</p>
