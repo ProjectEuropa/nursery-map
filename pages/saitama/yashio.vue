@@ -139,22 +139,6 @@ export default {
     ];
     this.setMap(contents);
     this.nurseryDatas = contents;
-  },
-  methods: {
-    search: function() {
-      const searchContent = document.getElementById("address").value;
-      const searchRequest = { content: searchContent };
-      geocoder.execute(searchRequest, function(ydf) {
-        if (ydf.features.length > 0) {
-          ydf.features[0].bindInfoWindow("住所：" + searchContent);
-          ydf.features[0].icon.image =
-            "https://s.yimg.jp/images/map/yy/images/icon/yy_aicon_06_32pix.gif";
-          ymap.addFeatures(ydf.features);
-          alert(searchContent + "をマップに追加しました。");
-        }
-      });
-      document.getElementById("address").value = "";
-    }
   }
 };
 </script>

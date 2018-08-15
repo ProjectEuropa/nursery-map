@@ -18,7 +18,7 @@
           <img class="card-img" src="@/assets/images/saitama/yashio.png" alt="">
           <div class="card-content">
             <h4 class="card-title">八潮市の保育園MAP</h4>
-            <p class="card-text">埼玉県南部に位置する保育園MAPです。</p>
+            <p class="card-text">埼玉県南部に位置する八潮市の保育園MAPです。</p>
           </div>
           <div class="card-link">
             <a href="/saitama/yashio">八潮市の保育園MAPを見る</a>
@@ -27,13 +27,12 @@
         <section class="card">
           <img class="card-img" src="@/assets/images/saitama/yashio.png" alt="">
           <div class="card-content">
-            <h4 class="card-title">八潮市の保育園MAP</h4>
-            <p class="card-text">埼玉県南部に位置する保育園MAPです。</p>
+            <h4 class="card-title">三郷市の保育園MAP</h4>
+            <p class="card-text">埼玉県南部に位置する三郷市の保育園MAPです。</p>
           </div>
-          <!-- <div class="card-link">
-            <a href="http://webcreatorbox.com/about">About</a>
-            <a href="http://webcreatorbox.com/">Website</a>
-          </div> -->
+          <div class="card-link">
+            <a href="/saitama/misato">三郷市の保育園MAPを見る</a>
+          </div>
         </section>
       </div>
     </article>
