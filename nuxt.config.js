@@ -43,7 +43,8 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa'
   ],
   /*
   ** Axios module configuration
@@ -53,6 +54,9 @@ module.exports = {
   },
   env: {
     HOST_URL: process.env.HOST_URL || 'http://127.0.0.1:3000'
+  },
+  workbox: {
+    dev: true
   },
   /*
   ** Build configuration
