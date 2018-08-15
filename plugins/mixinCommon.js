@@ -3,7 +3,7 @@ var ymap;
 var geocoder;
 Vue.mixin({
     methods: {
-        setMap(contents) {
+        setMap(contents, xyPoint) {
             ymap = new Y.Map("map", {
                 configure: {
                     doubleClickZoom: true,
@@ -14,7 +14,7 @@ Vue.mixin({
             });
             ymap.addControl(new Y.SliderZoomControlVertical());
             ymap.addControl(new Y.LayerSetControl());
-            ymap.drawMap(new Y.LatLng(35.802631, 139.849636), 15, Y.LayerSetId.NORMAL);
+            ymap.drawMap(new Y.LatLng(xyPoint.x, xyPoint.y), 15, Y.LayerSetId.NORMAL);
             geocoder = new Y.GeoCoder();
             for (const value of contents) {
                 var content = value.address;
