@@ -20,6 +20,10 @@ module.exports = {
     ],
   },
 
+  meta: {
+    ogTitle: '保育園簡易MAP',
+    ogDescription: '八潮市在住の個人製作による保育園簡易MAPです'
+  },
   /*
   ** Customize the progress-bar color
   */
