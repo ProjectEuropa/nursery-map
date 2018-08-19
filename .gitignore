@@ -12,6 +12,4 @@ npm-debug.log
 # IDE
 .idea
 
-
-/app/__pycache__
-!/app/.gitkeep
+app
