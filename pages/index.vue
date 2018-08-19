@@ -2,12 +2,12 @@
   <div>
     <article class="nursery-img-area pure-g">
       <section class="photo-box">
-        <img src="@/assets/images/nursery-house.png" alt="" class="nursery-img">
+        <img src="@/assets/images/nursery-building.jpg" alt="" class="nursery-img">
       </section>
       <section class="text-box pure-u-1 pure-u-md-1-2 pure-u-lg-2-3" id="">
-            <div class="l-box" id="">
-                <h2 class="text-box-head">保育園簡易MAP β版へようこそ！</h2>
-                <p class="text-box-subhead">八潮市在住の個人製作による保育園簡易MAPです。</p>
+          <div class="l-box" id="">
+            <h2 class="text-box-head">保育園簡易MAP β版へようこそ！</h2>
+            <p class="text-box-subhead">八潮市在住の個人製作による保育園簡易MAPです。</p>
           </div>
       </section>
     </article>
