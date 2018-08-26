@@ -1,14 +1,9 @@
 <template>
   <div>
     <article class="nursery-img-area pure-g">
-      <section class="photo-box">
-        <img src="@/assets/images/nursery-building.jpg" alt="" class="nursery-img">
-      </section>
-      <section class="text-box pure-u-1 pure-u-md-1-2 pure-u-lg-2-3" id="">
-          <div class="l-box" id="">
-            <h2 class="text-box-head">保育園簡易MAP β版へようこそ！</h2>
-            <p class="text-box-subhead">八潮市在住の個人製作による保育園簡易MAPです。</p>
-          </div>
+      <section class="top-title">
+        <p class="">保育園を見つける</p>
+        <p class="sub-text">地元の保育園の地図を探そう</p>
       </section>
     </article>
     <article class="card-area">
@@ -43,26 +38,51 @@
 import axios from "axios";
 
 export default {
-  // async asyncData () {
-  //   let data = await axios.get('/api')
-  //   console.log(data)
-  //   return data.data
-  // }
 };
 </script>
 
 <style scoped>
 .nursery-img-area {
-  flex-flow: unset;
-  margin-bottom: -25px;
+  background: url(~/assets/images/nursery-building.jpg) no-repeat center;
+  background-size: cover;
+  margin-bottom: -20px;
+  height: 800px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
 }
 
-.photobox,
-.text-box {
-  height: 350px;
+.nursery-img-area:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  background: inherit;
+  filter: blur(6px);
+  z-index: -1;
+}
+.top-title {
+  border-radius: 0;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 120px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
   text-align: center;
-  background-color: #f6f7f6;
-  color: #000;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+.sub-text {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .nursery-img {
@@ -82,7 +102,6 @@ export default {
 .card-area {
   background-color: aliceblue;
   padding-bottom: 30px;
-
 }
 
 .card {
