@@ -4,6 +4,7 @@
       <section class="top-title">
         <p class="">保育園を見つける</p>
         <p class="sub-text">地元の保育園の地図を探そう</p>
+        <a class="pure-button pure-button-primary button-secondary btn-text" href="/list">一覧を見る</a>
       </section>
     </article>
     <article class="card-area">
@@ -27,6 +28,16 @@
           </div>
           <div class="card-link">
             <a href="/saitama/misato">三郷市の保育園MAPを見る</a>
+          </div>
+        </section>
+        <section class="card">
+          <img class="card-img" src="@/assets/images/saitama/souka.png">
+          <div class="card-content">
+            <h4 class="card-title">草加市の保育園MAP</h4>
+            <p class="card-text">埼玉県南部に位置する草加市の保育園MAPです。</p>
+          </div>
+          <div class="card-link">
+            <a href="/saitama/misato">草加市の保育園MAPを見る</a>
           </div>
         </section>
       </div>
@@ -80,9 +91,13 @@ export default {
   z-index: 2;
 }
 
-.sub-text {
+.sub-text, .btn-text {
   font-size: 30px;
   font-weight: 700;
+}
+
+.button-secondary {
+  background: rgb(66, 184, 221);
 }
 
 .nursery-img {

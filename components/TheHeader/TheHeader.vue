@@ -9,6 +9,7 @@
               <div class="custom-menu-screen"></div>
               <ul class="pure-menu-list">
                   <li class="pure-menu-item pure-menu-disabled">お知らせ</li>
+                  <li class="pure-menu-item"><a href="/list" class="pure-menu-link">一覧</a></li>                  
                   <li class="pure-menu-item"><a href="/help" class="pure-menu-link">ヘルプ</a></li>
                   <li class="pure-menu-item"><a href="/contact" class="pure-menu-link">お問い合わせ</a></li>
               </ul>
