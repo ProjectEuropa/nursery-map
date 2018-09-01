@@ -143,5 +143,11 @@ export default {
 .card-link a:hover {
   color: #0090aa;
 }
+
+@media screen and (max-width: 480px){
+  .flex {
+    flex-wrap: wrap;
+  }
+}
 </style>
 
