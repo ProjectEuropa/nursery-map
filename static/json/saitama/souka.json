@@ -1,0 +1,199 @@
+{
+    "city_name_ja": "草加市",
+    "xy_point": {
+        "x": 35.834289,
+        "y": 139.801225
+    },
+    "nursery_datas": [
+        {
+            "nursery": "たかさご保育園",
+            "address": "草加市吉町5-1-48",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/01takasago.pdf"
+        },
+        {
+            "nursery": "きたうら保育園",
+            "address": "草加市早草加1-3-1",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/02kitaura.pdf"
+        },
+        {
+            "nursery": "あずま保育園",
+            "address": "草加市中央1-2-5",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/03azuma.pdf"
+        },
+        {
+            "nursery": "やつか保育園",
+            "address": "草加市谷塚町1058-3",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/04yatsuka.pdf"
+        },
+        {
+            "nursery": "さかえ保育園",
+            "address": "草加市松原1-3-1",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/05sakae.pdf"
+        },
+        {
+            "nursery": "きたや保育園",
+            "address": "草加市松原4-3-1",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/06kitaya.pdf"
+        },
+        {
+            "nursery": "しのは保育園",
+            "address": "草加市弁天1-10-15",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/07shinoha.pdf"
+        },
+        {
+            "nursery": "あさひ保育園",
+            "address": "草加市旭町6-14-2",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/08asahi.pdf"
+        },
+        {
+            "nursery": "やなぎしま保育園",
+            "address": "草加市柳島町130",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/09yanagishima.pdf"
+        },
+        {
+            "nursery": "にしまち保育園",
+            "address": "草加市西町442",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/10nishimachi.pdf"
+        },
+        {
+            "nursery": "せざき保育園",
+            "address": "草加市せざき保育園",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/11sezaki.pdf"
+        },
+        {
+            "nursery": "しんぜん保育園",
+            "address": "草加市新善町433-4",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/12shinzen.pdf"
+        },
+        {
+            "nursery": "しんえい保育園",
+            "address": "草加市新栄4-813-32",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/13shinei.pdf"
+        },
+        {
+            "nursery": "やはた保育園",
+            "address": "草加市八幡町473",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/14yahata.pdf"
+        },
+        {
+            "nursery": "やはた保育園分園",
+            "address": "草加市八幡町1148",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/14-1yahata_bunen.pdf"
+        },
+        {
+            "nursery": "こやま保育園",
+            "address": "草加市小山1-19-1",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/15koyama.pdf"
+        },
+        {
+            "nursery": "ひかわ保育園",
+            "address": "草加市氷川町1803",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/16hikawa.pdf"
+        },
+        {
+            "nursery": "あおやぎ保育園",
+            "address": "草加市青柳7-2-1",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/17aoyagi.pdf"
+        },
+        {
+            "nursery": "やつかかみ保育園",
+            "address": "草加市谷塚上町219-1",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/18yatsukakami.pdf"
+        },
+        {
+            "nursery": "ひかり幼稚舎",
+            "address": "草加市稲荷4-26-33",
+            "url": "http://www.hikari-sg.ed.jp/shoei-hikari/"
+        },
+        {
+            "nursery": "ハッピーナーサリー",
+            "address": "草加市谷塚2-16-1",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/map/22.html"
+        },
+        {
+            "nursery": "かおりPutra保育園",
+            "address": "草加市氷川町1080-1",
+            "url": "http://www.kaori-putra-hoikuen.ed.jp/"
+        },
+        {
+            "nursery": "優優保育園",
+            "address": "草加市西町932-2",
+            "url": "https://www.yuuyuu-h.com/"
+        },
+        {
+            "nursery": "草加なかよし保育園",
+            "address": "草加市谷塚仲町353-1",
+            "url": "https://www.soka-nakayoshi.com/category/blog/"
+        },
+        {
+            "nursery": "さくらの実保育園",
+            "address": "草加市氷川町2116-20",
+            "url": "http://sakuranomi.soka-sakuranbo.org/syoukai.html"
+        },
+        {
+            "nursery": "さくらの実保育園分園",
+            "address": "草加市住吉2-10-17",
+            "url": "hhttp://www.city.soka.saitama.jp/cont/s1603/map/49.html"
+        },
+        {
+            "nursery": "そうか草花保育園",
+            "address": "草加市谷塚町530-1",
+            "url": "http://www.s-kusabana.com/"
+        },
+        {
+            "nursery": "けやきの森保育園清門町園",
+            "address": "草加市谷清門3-59-12",
+            "url": "https://www.keyakinomori.ed.jp/ens/%E3%81%91%E3%82%84%E3%81%8D%E3%81%AE%E6%A3%AE%E4%BF%9D%E8%82%B2%E5%9C%92%E6%B8%85%E9%96%80%E7%94%BA%E5%9C%92/"
+        },
+        {
+            "nursery": "めぇめぇこやぎこども園",
+            "address": "草加市北谷3-36-17",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/020/010/025/29meme.pdf"
+        },
+        {
+            "nursery": "にっさとの森保育園",
+            "address": "草加市新里町1148-1",
+            "url": "https://www.nissatonomori.com/"
+        },
+        {
+            "nursery": "草加にじいろ保育園",
+            "address": "草加市八幡町336-1",
+            "url": "https://www.nijiirohoikuen.jp/"
+        },
+        {
+            "nursery": "じょうえん保育園",
+            "address": "草加市青柳3-10-20",
+            "url": "http://johen.jp/"
+        },
+        {
+            "nursery": "さくらんぼ保育園",
+            "address": "草加市松原1-7-4",
+            "url": "http://www.soka-sakuranbo.org/history.html"
+        },
+        {
+            "nursery": "草加松原どろんこ保育園",
+            "address": "草加市松原1-5-9",
+            "url": "http://www.doronko.biz/nursery/matsubara.php"
+        },
+        {
+            "nursery": "ほっぺるランド草加谷塚",
+            "address": "草加市谷塚町168-1",
+            "url": "https://hoppel-land.com/introduces/178"
+        },
+        {
+            "nursery": "けやきの森保育園西町",
+            "address": "草加市西町475-1",
+            "url": "https://www.keyakinomori.ed.jp/ens/%E3%81%91%E3%82%84%E3%81%8D%E3%81%AE%E6%A3%AE%E4%BF%9D%E8%82%B2%E5%9C%92%E8%A5%BF%E7%94%BA/"
+        },
+        {
+            "nursery": "優優保育園　やつか",
+            "address": "草加市谷塚上町692-1",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/map/PAGE000000000000055720.html"
+        },
+        {
+            "nursery": "さくらんぼ保育園分園",
+            "address": "草加市松原4-5-9",
+            "url": "http://www.city.soka.saitama.jp/cont/s1603/map/PAGE000000000000055722.html"
+        }
+    ]
+}
