@@ -37,7 +37,7 @@
             <p class="card-text">埼玉県南部に位置する草加市の保育園MAPです。</p>
           </div>
           <div class="card-link">
-            <a href="/saitama/misato">草加市の保育園MAPを見る</a>
+            <a href="/saitama/souka">草加市の保育園MAPを見る</a>
           </div>
         </section>
       </div>
