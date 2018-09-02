@@ -48,8 +48,7 @@
 <script>
 import axios from "axios";
 
-export default {
-};
+export default {};
 </script>
 
 <style scoped>
@@ -91,7 +90,8 @@ export default {
   z-index: 2;
 }
 
-.sub-text, .btn-text {
+.sub-text,
+.btn-text {
   font-size: 30px;
   font-weight: 700;
 }
@@ -112,6 +112,7 @@ export default {
 .flex {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .card-area {
@@ -159,9 +160,9 @@ export default {
   color: #0090aa;
 }
 
-@media screen and (max-width: 480px){
-  .flex {
-    flex-wrap: wrap;
+@media screen and (max-width: 480px) {
+  .card {
+    margin-bottom: 20px;
   }
 }
 </style>
