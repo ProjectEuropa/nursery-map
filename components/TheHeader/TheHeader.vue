@@ -5,10 +5,8 @@
               <a href="/" class="pure-menu-heading"><i class="fas fa-search-plus"></i>保育園簡易MAP β版</a>
               <a href="#" class="custom-menu-toggle" id="toggle" @click="drawer"><s class="bar"></s><s class="bar"></s></a>
           </div>
-          <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
-              <div class="custom-menu-screen"></div>
+          <div class="pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
               <ul class="pure-menu-list">
-                  <li class="pure-menu-item pure-menu-disabled">お知らせ</li>
                   <li class="pure-menu-item"><a href="/list" class="pure-menu-link">一覧</a></li>                  
                   <li class="pure-menu-item"><a href="/help" class="pure-menu-link">ヘルプ</a></li>
                   <li class="pure-menu-item"><a href="/contact" class="pure-menu-link">お問い合わせ</a></li>
@@ -33,7 +31,7 @@ export default {
 
 
 
-<style scoped>
+<style lang="css" scoped>
 header {
   background-color: #2a2a2a;
 }
@@ -176,13 +174,6 @@ footer {
     display: none\9;
   }
 
-  .custom-menu-bottom {
-    position: absolute;
-    width: 100%;
-    border-top: 1px solid #eee;
-    background-color: #808080;
-    z-index: 100;
-  }
 
   .custom-menu-bottom .pure-menu-link {
     opacity: 1;
