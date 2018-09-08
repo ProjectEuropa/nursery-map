@@ -49,3 +49,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+table {
+  margin-bottom: 10px;
+}
+</style>
