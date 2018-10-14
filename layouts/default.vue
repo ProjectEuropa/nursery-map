@@ -1,7 +1,9 @@
 <template>
   <div>
     <the-header/>
+    <main>
     <nuxt/>
+    </main>
     <the-footer/>
   </div>
 </template>
@@ -42,6 +44,10 @@ export default {
 
 .center-table {
   margin: 0 auto;
+}
+
+main {
+  z-index: 1;
 }
 </style>
 

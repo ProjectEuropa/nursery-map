@@ -1,13 +1,13 @@
 <template>
 <div>
-    <section class="">
+    <section>
     <h2 class="container">MAPのある都道府県・市区町村一覧</h2>
         <div class="pricing_table_wdg container">
             <ul>
                 <li>埼玉県</li>
-                <li><a href="/saitama/yashio">八潮市</a></li>
-                <li><a href="/saitama/misato">三郷市</a></li>
-                <li><a href="/saitama/souka">草加市</a></li>
+                <li><a href="/nursery/saitama/yashio">八潮市・保育園</a><a href="/preschool/saitama/yashio">八潮市・幼稚園</a></li>
+                <li><a href="/nursery//saitama/misato">三郷市</a></li>
+                <li><a href="/nursery//saitama/souka">草加市</a></li>
             </ul>
         </div>
     </section>

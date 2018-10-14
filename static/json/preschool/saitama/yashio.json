@@ -1,0 +1,39 @@
+{
+    "city_name_ja": "八潮市",
+    "xy_point": {
+		"x": 35.802631,
+		"y": 139.849636
+	},
+	"nursery_datas": [
+		{
+			"nursery": "みひかり幼稚園",
+			"address": "八潮市大字八條1760番地",
+			"url": "http://www.mihikari.ed.jp/"
+		},
+		{
+			"nursery": "八潮幼稚園",
+			"address": "八潮市大字西袋1218番地2",
+			"url": "http://www.yashio-youchien.com/"
+		},
+		{
+			"nursery": "小倉あさひ幼稚園",
+			"address": "八潮市大字大曽根538番地",
+			"url": "http://www.kidslink.jp/asahi-s41/"
+		},
+		{
+			"nursery": "青和幼稚園",
+			"address": "八潮市八潮四丁目4番地3",
+			"url": "http://www.seiwagakuen.com/"
+		},
+		{
+			"nursery": "八潮ちくみ幼稚園",
+			"address": "八潮市大字鶴ヶ曽根124番地",
+			"url": "http://www.yashio-chikumi.ac.jp/"
+		},
+		{
+			"nursery": "しおどめの森　幼稚園部",
+			"address": "八潮市大字木曽根1063番地",
+			"url": "http://www.gakuhou-shibagakuen.ac.jp/youchien/"
+		}
+	]
+}

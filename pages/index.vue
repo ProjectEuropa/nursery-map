@@ -2,8 +2,8 @@
   <div>
     <article class="nursery-img-area pure-g">
       <section class="top-title">
-        <p class="">保育園を見つける</p>
-        <p class="sub-text">地元の保育園の地図を探そう</p>
+        <p class="">保育園・幼稚園を見つける</p>
+        <p class="sub-text">地元の保育園・幼稚園の地図を探そう</p>
         <a class="pure-button pure-button-primary button-secondary btn-text" href="/list">一覧を見る</a>
       </section>
     </article>
@@ -17,7 +17,7 @@
             <p class="card-text">埼玉県南部に位置する八潮市の保育園MAPです。</p>
           </div>
           <div class="card-link">
-            <a href="/saitama/yashio">八潮市の保育園MAPを見る</a>
+            <a href="/nursery/saitama/yashio">八潮市の保育園MAPを見る</a>
           </div>
         </section>
         <section class="card">
@@ -27,17 +27,17 @@
             <p class="card-text">埼玉県南部に位置する三郷市の保育園MAPです。</p>
           </div>
           <div class="card-link">
-            <a href="/saitama/misato">三郷市の保育園MAPを見る</a>
+            <a href="/nursery/saitama/misato">三郷市の保育園MAPを見る</a>
           </div>
         </section>
         <section class="card">
-          <img class="card-img" src="@/assets/images/saitama/souka.png">
+          <img class="card-img" src="@/assets/images/saitama/yashio.png">
           <div class="card-content">
-            <h4 class="card-title">草加市の保育園MAP</h4>
-            <p class="card-text">埼玉県南部に位置する草加市の保育園MAPです。</p>
+            <h4 class="card-title">八潮市の幼稚園MAP</h4>
+            <p class="card-text">埼玉県南部に位置する八潮市の幼稚園MAPです。</p>
           </div>
           <div class="card-link">
-            <a href="/saitama/souka">草加市の保育園MAPを見る</a>
+            <a href="/preschool/saitama/souka">八潮市の幼稚園MAPを見る</a>
           </div>
         </section>
       </div>
@@ -70,14 +70,14 @@ export default {};
   left: -5px;
   right: -5px;
   background: inherit;
-  filter: blur(6px);
+  filter: blur(8px);
   z-index: -1;
 }
 .top-title {
   border-radius: 0;
   color: #fff;
   font-family: Raleway;
-  font-size: 120px;
+  font-size: 100px;
   font-weight: 700;
   letter-spacing: 0em;
   line-height: 1.2;

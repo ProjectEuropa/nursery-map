@@ -6,11 +6,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: '保育園簡易MAP β版',
+    title: '保育園・幼稚園簡易MAP β版',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '保育園の簡易MAP' }
+      { hid: 'description', name: 'description', content: '保育園・幼稚園の簡易MAP' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -21,8 +21,8 @@ module.exports = {
   },
 
   meta: {
-    ogTitle: '保育園簡易MAP',
-    ogDescription: '八潮市在住の個人製作による保育園簡易MAPです'
+    ogTitle: '保育園・幼稚園簡易MAP',
+    ogDescription: '八潮市在住の個人製作による保育園・幼稚園簡易MAPです'
   },
   /*
   ** Customize the progress-bar color

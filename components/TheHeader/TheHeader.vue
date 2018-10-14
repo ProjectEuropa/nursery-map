@@ -2,7 +2,7 @@
     <header>
         <div class="custom-menu-wrapper">
           <div class="pure-menu custom-menu custom-menu-top">
-              <a href="/" class="pure-menu-heading"><i class="fas fa-search-plus"></i>保育園簡易MAP β版</a>
+              <a href="/" class="pure-menu-heading"><i class="fas fa-search-plus"></i>保育園・幼稚園簡易MAP β版</a>
               <a href="#" class="custom-menu-toggle" id="toggle" @click="drawer"><s class="bar"></s><s class="bar"></s></a>
           </div>
           <div class="pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
